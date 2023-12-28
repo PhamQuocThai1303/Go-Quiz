@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".Question">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vienna la thu do cua nuoc nao?"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:paddingHorizontal="20dp"
+         />
+
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="90dp"
+        android:paddingHorizontal="40dp"
+        >
+        <RadioButton
+            android:id="@+id/radio_ansA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Pirates" />
+
+        <RadioButton
+            android:id="@+id/radio_ansB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Ninjas" />
+
+        <RadioButton
+            android:id="@+id/radio_ansC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Turtles" />
+        <RadioButton
+            android:id="@+id/radio_ansD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Turtles" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+    <Button
+        android:id="@+id/cfBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trả lời"
+        android:textSize="30dp"
+         />
+    </LinearLayout>
+
+</LinearLayout>

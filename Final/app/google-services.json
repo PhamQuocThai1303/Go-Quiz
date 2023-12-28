@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "246015863902",
+    "project_id": "goquiz-b62d8",
+    "storage_bucket": "goquiz-b62d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246015863902:android:0316ef894c17ddb67158cf",
+        "android_client_info": {
+          "package_name": "com.example.afinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQdNFLH_wIiSYlQu4GV8wN5XU2pFQbam8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
